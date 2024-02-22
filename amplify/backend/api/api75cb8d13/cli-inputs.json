@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/": {
+      "name": "/",
+      "lambdaFunction": "talebackendead527f0",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

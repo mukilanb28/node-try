@@ -1,0 +1,44 @@
+{
+  "api": {
+    "api75cb8d13": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "talebackendead527f0"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "talebackendead527f0": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_talebackendead527f0_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "talebackendead527f0"
+        }
+      ]
+    },
+    "AMPLIFY_function_talebackendead527f0_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "talebackendead527f0"
+        }
+      ]
+    }
+  }
+}

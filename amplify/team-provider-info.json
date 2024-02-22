@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-talebackend-staging-160922-authRole",
+      "UnauthRoleArn": "arn:aws:iam::632859476676:role/amplify-talebackend-staging-160922-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::632859476676:role/amplify-talebackend-staging-160922-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-talebackend-staging-160922-deployment",
+      "UnauthRoleName": "amplify-talebackend-staging-160922-unauthRole",
+      "StackName": "amplify-talebackend-staging-160922",
+      "StackId": "arn:aws:cloudformation:us-east-1:632859476676:stack/amplify-talebackend-staging-160922/be0eac00-d19c-11ee-afd0-124447713205",
+      "AmplifyAppId": "d3q9v9ikl16s0p"
+    },
+    "categories": {
+      "function": {
+        "talebackendead527f0": {
+          "deploymentBucketName": "amplify-talebackend-staging-160922-deployment",
+          "s3Key": "amplify-builds/talebackendead527f0-67334d4a4f422f69762f-build.zip"
+        }
+      },
+      "api": {
+        "api75cb8d13": {}
+      }
+    }
+  }
+}
