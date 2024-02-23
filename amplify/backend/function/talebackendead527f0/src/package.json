@@ -16,8 +16,9 @@
     "class-validator": "^0.13.2",
     "passport": "^0.5.2",
     "passport-jwt": "^4.0.0",
-    "bcrypt": "^5.0.1",
-    "dotenv": "^16.0.0"
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.5"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.92",
