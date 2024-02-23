@@ -28,7 +28,8 @@
     "@nestjs/typeorm": "8.0.2",
     "aws-sdk": "^2.1542.0",
     "dotenv": "^16.0.0",
-    "bcrypt": "^5.0.1"
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.92",
