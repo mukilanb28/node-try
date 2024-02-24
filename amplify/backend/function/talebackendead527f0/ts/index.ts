@@ -9,7 +9,7 @@ export const handler: Handler<TriggerEvent, string> = (
   context: Context,
   callback: Callback<string>
 ) => {
-  console.log(`Event^ ${JSON.stringify(event)}`);
+  console.log(`Event^^ ${JSON.stringify(event)}`);
   const concatKey = `${event.key1} ${event.key2} ${event.key3}`;
   callback(null, concatKey);
 };
