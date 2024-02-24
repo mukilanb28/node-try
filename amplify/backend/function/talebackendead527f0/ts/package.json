@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.134",
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7"
+  }
+}

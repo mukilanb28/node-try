@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "amplify:concatenate": "cd amplify/backend/function/talebackendead527f0/ts && npm install && npm run tsc && cd -"
+  }
+}
